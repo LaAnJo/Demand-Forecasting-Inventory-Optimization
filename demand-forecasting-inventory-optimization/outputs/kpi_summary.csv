@@ -1,0 +1,2 @@
+as_of_date,dataset_source,sku_count,annual_revenue_gbp,forecast_next_28d_units,test_wape_pct,test_mae_units,selected_model,high_risk_skus,skus_needing_reorder,suggested_purchase_cost_gbp
+2025-12-31,SYNTHETIC,30,10600114.52,15590.2,21.53,4.05,Gradient Boosting,13,17,166665.73

@@ -1,0 +1,31 @@
+sku,product_name,category,unit_price_gbp,unit_cost_gbp,lead_time_days,source
+SKU-001,Home Product 01,Home,71.46,43.71,9,SYNTHETIC
+SKU-002,Personal Care Product 02,Personal Care,78.95,45.43,16,SYNTHETIC
+SKU-003,Stationery Product 03,Stationery,84.15,49.83,13,SYNTHETIC
+SKU-004,Electronics Product 04,Electronics,64.68,45.04,9,SYNTHETIC
+SKU-005,Kitchen Product 05,Kitchen,88.72,66.39,11,SYNTHETIC
+SKU-006,Home Product 06,Home,8.17,4.42,6,SYNTHETIC
+SKU-007,Personal Care Product 07,Personal Care,28.66,15.95,12,SYNTHETIC
+SKU-008,Stationery Product 08,Stationery,19.86,11.56,11,SYNTHETIC
+SKU-009,Electronics Product 09,Electronics,23.02,15.21,3,SYNTHETIC
+SKU-010,Kitchen Product 10,Kitchen,87.34,43.55,16,SYNTHETIC
+SKU-011,Home Product 11,Home,61.11,31.55,11,SYNTHETIC
+SKU-012,Personal Care Product 12,Personal Care,44.9,33.15,4,SYNTHETIC
+SKU-013,Stationery Product 13,Stationery,55.79,34.28,5,SYNTHETIC
+SKU-014,Electronics Product 14,Electronics,30.26,22.16,3,SYNTHETIC
+SKU-015,Kitchen Product 15,Kitchen,53.97,29.36,7,SYNTHETIC
+SKU-016,Home Product 16,Home,47.11,34.14,13,SYNTHETIC
+SKU-017,Personal Care Product 17,Personal Care,66.33,49.91,12,SYNTHETIC
+SKU-018,Stationery Product 18,Stationery,43.02,28.29,7,SYNTHETIC
+SKU-019,Electronics Product 19,Electronics,53.89,27.32,13,SYNTHETIC
+SKU-020,Kitchen Product 20,Kitchen,35.58,23.33,16,SYNTHETIC
+SKU-021,Home Product 21,Home,54.82,34.31,7,SYNTHETIC
+SKU-022,Personal Care Product 22,Personal Care,84.47,45.03,18,SYNTHETIC
+SKU-023,Stationery Product 23,Stationery,73.81,56.57,6,SYNTHETIC
+SKU-024,Electronics Product 24,Electronics,57.94,38.93,4,SYNTHETIC
+SKU-025,Kitchen Product 25,Kitchen,52.03,35.08,18,SYNTHETIC
+SKU-026,Home Product 26,Home,9.26,6.8,13,SYNTHETIC
+SKU-027,Personal Care Product 27,Personal Care,13.65,9.85,8,SYNTHETIC
+SKU-028,Stationery Product 28,Stationery,88.66,66.3,5,SYNTHETIC
+SKU-029,Electronics Product 29,Electronics,86.86,49.92,18,SYNTHETIC
+SKU-030,Kitchen Product 30,Kitchen,64.52,34.78,8,SYNTHETIC

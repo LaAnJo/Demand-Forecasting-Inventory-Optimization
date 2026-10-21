@@ -1,0 +1,4 @@
+split,model,mae,rmse,wape_pct,bias_pct
+validation,Gradient Boosting,4.0594,5.7242,21.7092,-0.4198
+validation,Seasonal 4-week average,4.47,6.1747,23.9055,-1.6754
+test,Gradient Boosting,4.0545,5.7267,21.5325,-2.5397

@@ -1,0 +1,31 @@
+sku,annual_revenue_gbp,annual_units,abc_class,revenue_share_pct,cumulative_revenue_pct,product_name,category
+SKU-029,935134.76,10766,A,8.82,8.82,Electronics Product 29,Electronics
+SKU-003,727140.15,8641,A,6.86,15.68,Stationery Product 03,Stationery
+SKU-005,674360.72,7601,A,6.36,22.04,Kitchen Product 05,Kitchen
+SKU-002,608388.7,7706,A,5.74,27.78,Personal Care Product 02,Personal Care
+SKU-028,572920.92,6462,A,5.4,33.18,Stationery Product 28,Stationery
+SKU-017,524935.62,7914,A,4.95,38.13,Personal Care Product 17,Personal Care
+SKU-013,475163.43,8517,A,4.48,42.61,Stationery Product 13,Stationery
+SKU-004,450237.48,6961,A,4.25,46.86,Electronics Product 04,Electronics
+SKU-001,440550.9,6165,A,4.16,51.02,Home Product 01,Home
+SKU-010,405344.94,4641,A,3.82,54.84,Kitchen Product 10,Kitchen
+SKU-019,405145.02,7518,A,3.82,58.66,Electronics Product 19,Electronics
+SKU-018,403312.5,9375,A,3.8,62.46,Stationery Product 18,Stationery
+SKU-020,386932.5,10875,A,3.65,66.11,Kitchen Product 20,Kitchen
+SKU-022,367613.44,4352,A,3.47,69.58,Personal Care Product 22,Personal Care
+SKU-021,361263.8,6590,A,3.41,72.99,Home Product 21,Home
+SKU-030,341568.88,5294,A,3.22,76.21,Kitchen Product 30,Kitchen
+SKU-024,312470.42,5393,A,2.95,79.16,Electronics Product 24,Electronics
+SKU-015,294082.53,5449,A,2.77,81.93,Kitchen Product 15,Kitchen
+SKU-009,285586.12,12406,B,2.69,84.62,Electronics Product 09,Electronics
+SKU-023,283578.02,3842,B,2.68,87.3,Stationery Product 23,Stationery
+SKU-025,259525.64,4988,B,2.45,89.75,Kitchen Product 25,Kitchen
+SKU-011,257456.43,4213,B,2.43,92.18,Home Product 11,Home
+SKU-007,187551.04,6544,B,1.77,93.95,Personal Care Product 07,Personal Care
+SKU-014,171513.68,5668,B,1.62,95.57,Electronics Product 14,Electronics
+SKU-016,116832.8,2480,C,1.1,96.67,Home Product 16,Home
+SKU-027,106156.05,7777,C,1.0,97.67,Personal Care Product 27,Personal Care
+SKU-008,88555.74,4459,C,0.84,98.51,Stationery Product 08,Stationery
+SKU-012,72513.5,1615,C,0.68,99.19,Personal Care Product 12,Personal Care
+SKU-006,56887.71,6963,C,0.54,99.73,Home Product 06,Home
+SKU-026,27391.079999999998,2958,C,0.26,99.99,Home Product 26,Home
