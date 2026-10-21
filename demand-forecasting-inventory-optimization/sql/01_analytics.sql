@@ -1,5 +1,4 @@
--- SQLite queries; run after python -m src.run_pipeline.
--- sqlite3 inventory_analytics.sqlite < sql/01_analytics.sql
+
 
 -- 1. Fastest-moving high-value SKUs by trailing annual sales.
 SELECT p.sku, p.product_name, a.abc_class, a.annual_revenue_gbp, a.annual_units
