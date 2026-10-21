@@ -92,7 +92,6 @@ Mac/Linux: `python3 -m venv .venv && source .venv/bin/activate` and then the sam
 - 30 items, 21,930 product-day observations (731 days).
 - 28-day held-out test WAPE **21.53%** for the validation-selected gradient boosting method.
 - 17 simulated SKUs triggered a reorder; 13 have high modeled stockout probability (> or equal to 70%).
-- These numbers are not real operational improvements, measured service levels or financial savings.
 
 
 
