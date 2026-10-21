@@ -52,7 +52,7 @@ The repository includes sample inputs and computed outputs, so running the pipel
 
 Mac/Linux: `python3 -m venv .venv && source .venv/bin/activate` and then the same remaining commands. If the activation policy blocks PowerShell activation, use `.\.venv\Scripts\python.exe -m src.run_pipeline` directly without activation.
 
-### Generated datasets and how to use them
+### datasets and how to use them
 
 | File | Description | Power BI visual |
 |---|---|---|
