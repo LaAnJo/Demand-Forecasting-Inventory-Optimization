@@ -94,37 +94,7 @@ Mac/Linux: `python3 -m venv .venv && source .venv/bin/activate` and then the sam
 - 17 simulated SKUs triggered a reorder; 13 have high modeled stockout probability (> or equal to 70%).
 - These numbers are not real operational improvements, measured service levels or financial savings.
 
-## One-day build schedule (about 6–9 hours)
 
-| Time box | Goal | Proof you are done |
-|---|---|---|
-| 0:00–0:40 | Read project brief + set up Python and input files | Dependencies installed; sample CSV opened |
-| 0:40–1:30 | Explore/validate SKU sales; inspect weekly pattern | Know row grain, demand distribution and source limitations |
-| 1:30–3:00 | Understand baseline, ML features, chronological split | Run model; explain why validation/test differs |
-| 3:00–4:00 | ABC and inventory-policy math | Manually reproduce 1 SKU ROP + reorder quantity |
-| 4:00–4:45 | SQL joins and grouping | Run 5 queries and review purchase actions |
-| 4:45–6:45 | Power BI relationships, DAX, dashboard layout | 2 pages and 1 SKU drillthrough/filter |
-| 6:45–7:30 | Excel what-if planner and data controls | Change lead time and watch reorder quantity recalc |
-| 7:30–8:30 | Clean README, charts, screenshots, GitHub push | Demonstrate end-to-end narrative in <90 sec |
 
-## Optional real-demand enhancement (recommended before job applications)
 
-The [UCI Online Retail dataset](https://archive.ics.uci.edu/dataset/352/online-retail) contains ~541,909 transaction rows (Dec 2010–Dec 2011) and is licensed CC BY 4.0. Citation: Chen, D. (2015), *Online Retail*, UCI Machine Learning Repository, DOI [10.24432/C5BW33](https://doi.org/10.24432/C5BW33).
 
-1. Download the original `Online Retail.xlsx` into `data/raw/` yourself.
-2. Run `python -m src.import_uci --input "data/raw/Online Retail.xlsx"`.
-3. Run `python -m src.run_pipeline`.
-4. Reopen/refresh Power BI from `data/processed` and `outputs`.
-5. Replace the prebuilt Excel sample planner with new UCI-output formulas or rebuilt planner.
-
-The UCI importer filters canceled and nonpositive transactions, uses recent-volume-active SKUs, fills missing SKU-days as **recorded zero sales** (potentially nontrading/stockout days), and keeps actual transactional selling prices. It **simulates inventory on hand, unit cost, category and lead time**; it cannot verify avoided stockouts or cost savings. This is an exercise in *demand forecasting on real transactions plus assumed policy scenarios*, not a validated end-to-end operational deployment. Excel input import requires `openpyxl` as listed in requirements; the bundled sample Excel report is separately generated with formula-driven cells.
-
-## Repository publication checklist
-
-- [ ] Run pipeline and tests on your own machine.
-- [ ] Complete the Power BI report; save `.pbix` locally and put screenshots in README; `.pbix` is NOT included in this bundle.
-- [ ] Add one screenshot of demand forecasting, one of ABC Pareto and one of the reorder planner.
-- [ ] Document sample vs real data on GitHub and in a resume bullet.
-- [ ] Confirm no confidential or private data is uploaded.
-
-**Suggested honest resume wording before importing real data:** “Built an end-to-end simulated demand forecasting and inventory optimization project using Python, SQL, Power BI and Excel; evaluated 28-day SKU forecasts against a seasonal baseline and modeled ABC classification, safety stock and reorder points.”
